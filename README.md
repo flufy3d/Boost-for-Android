@@ -49,6 +49,12 @@ Linux.
 ```
 ./build-android.sh $(NDK_ROOT)
 ```
+
+```
+./build-android.sh --arch=arm64-v8a --boost=1.68.0 /home/flufy3d/Documents/WebRTC/webrtc_android/src/third_party/android_ndk
+```
+
+
 Windows:
 ```
 build-android.bat $(NDK_ROOT)
